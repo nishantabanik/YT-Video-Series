@@ -4,6 +4,8 @@
 
 Welcome to our comprehensive tutorial on Kustomize, presented by Unstuck@40. This guide is designed to help you master Kubernetes setup management using Kustomize, simplifying complex configurations across different environments such as development, staging, and production. Whether you're just starting out or are looking to refine your Kubernetes management skills, this tutorial will provide you with the necessary tools and knowledge.
 
+Here's the URL Link of my YouTube Kustomize tutorial as a reference: [Watch the Kustomize Tutorial Video on YouTube](https://www.youtube.com/watch?v=79C05LcfulY)
+
 ![Kustomize Workflow](https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7szhk49k18jr9yjxyomd.png)
 
 ## Why Kustomize and Its Key Features
