@@ -7,6 +7,10 @@
 
 Welcome to the Kubernetes Observability Setup Guide! In this guide, we'll walk you through setting up monitoring and observability for your Kubernetes cluster using Prometheus, Grafana, and some handy tools. Whether you're a seasoned Kubernetes user or just getting started, this guide will help you gain insights into your cluster's health and performance.
 
+
+Here's the URL Link of my YouTube Prometheus-Grafana tutorial as a reference: [Watch the GKE Observability Tutorial Video on YouTube](https://www.youtube.com/watch?v=_6DLJnLOwc8)
+
+
 ![Kubernetes Logo](https://media.licdn.com/dms/image/C5612AQFqPzlOaOvwbw/article-cover_image-shrink_720_1280/0/1606979524095?e=1716422400&v=beta&t=fS9U_3WFoBEaCUd9-UYd--iR96_OSotTk5ZasxhmFDY)
 
 ## Table of Contents
