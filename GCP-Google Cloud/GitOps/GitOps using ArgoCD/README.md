@@ -6,7 +6,7 @@
 Welcome to the Argo CD GitOps Implementation Guide for Google Kubernetes Engine (GKE)! This guide will walk you through setting up a GitOps workflow using Argo CD, a declarative, Git-based continuous delivery tool for Kubernetes. Whether you're new to Kubernetes or have some experience, this guide aims to provide you with a clear path to implement GitOps principles in your GKE cluster, including application deployment, upgrades, and downgrades.
 
 
-Here's the URL Link of my YouTube Kustomize tutorial as a reference: [Watch the Kustomize Tutorial Video on YouTube](https://www.youtube.com/watch?v=79C05LcfulY)
+Here's the URL Link of my YouTube Argo CD tutorial as a reference: [Watch the ArgoCD Tutorial Video on YouTube](https://www.youtube.com/watch?v=aPDWef4PvKg)
 
 
 ![Argo CD Logo](https://argo-cd.readthedocs.io/en/stable/assets/argo.png)
