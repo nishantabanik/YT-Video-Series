@@ -2,6 +2,10 @@
 
 Welcome to our GitHub page on "Launching Scalable Web Services on GCP using MIGs (Managed Instance Groups)." This guide is designed to help you deploy scalable and resilient web services on Google Cloud Platform (GCP) using Managed Instance Groups (MIGs). By leveraging MIGs, you can ensure that your web service can automatically scale up or down based on demand, improve fault tolerance, and achieve seamless updates with minimal downtime. Our goal is to provide a comprehensive tutorial that encompasses setting up, deploying, and managing your web services on GCP.
 
+
+Here's the URL Link of my YouTube GCP-MIG tutorial as a reference: [Watch the GCP-MIG Tutorial Video on YouTube](https://www.youtube.com/watch?v=GCImELp8bAU&t=76s)
+
+
 ### Objectives
 
 - **Scalability:** Automatically adjust the number of instances in response to traffic demands.
@@ -73,7 +77,7 @@ This guide provides a roadmap for deploying scalable and resilient web services 
 
 Your curiosity and eagerness to learn drive us to create more content that breaks down technological barriers. If you've found this guide useful, we'd love to hear your thoughts and questions. Engaging with our content helps us understand your needs better and tailor our future guides to suit your interests.
 
-If interested, please refer to the Video version of this page: https://www.youtube.com/watch?v=GCImELp8bAU&t=76s
+
 
 
 ### Closing
