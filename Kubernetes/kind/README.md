@@ -3,6 +3,9 @@
 Welcome to our GitHub page on "Unlock Kubernetes with KinD: Single & Multi-Node Explained". Here, we embark on a journey to demystify the complexities of Kubernetes using Kubernetes in Docker (KinD), a powerful tool that facilitates the simulation of Kubernetes clusters on your local machine. Whether you're a developer, a DevOps professional, or a tech enthusiast, our guide is crafted to enhance your Kubernetes skills by providing hands-on experience with both single-node and multi-node cluster configurations using KinD.
 
 
+Here's the URL Link of my YouTube KIND tutorial as a reference: [Watch the KIND Tutorial Video on YouTube](https://www.youtube.com/watch?v=4bgpIYIuM6M&t=2s)
+
+
 ### Objectives
 
 - **Ease of Use:** Learn how to set up Kubernetes clusters swiftly with KinD.
@@ -42,7 +45,7 @@ Welcome to our GitHub page on "Unlock Kubernetes with KinD: Single & Multi-Node 
 
 Your curiosity and eagerness to learn drive us to create more content that breaks down technological barriers. If you've found this guide useful, we'd love to hear your thoughts and questions. Engaging with our content helps us understand your needs better and tailor our future guides to suit your interests.
 
-If interested, please refer to the Video version of this page: https://www.youtube.com/watch?v=4bgpIYIuM6M&t=2s
+
 
 
 ### Closing
