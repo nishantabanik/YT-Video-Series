@@ -56,7 +56,7 @@ Alternatively, expose it via a LoadBalancer:
 
 ```bash
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
-kubectl get service -n argocd | grep argocd-server
+kubectl get service -n argocd -w | grep argocd-server
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
 ```
@@ -89,8 +89,11 @@ To upgrade or downgrade Nginx:
 
 1. **Edit `nginx-deployment.yaml`** in your repository, changing the Nginx image version.
 2. **Commit and push** the changes to your repository via Git commit and push command.
-3. Argo CD will Not automatically detect the changes and apply them, upgrading or downgrading Nginx in your cluster.
+3. Argo CD will Not automatically detect the changes and apply them, upgrading or downgrading Nginx in your cluster. You have to either click on "Sync" on the ArgoCD portal or you need to run:
 
+```bash
+argocd app set nginx-deployment --sync-policy automated
+```
 
 ### Example: Downgrading Nginx
 
