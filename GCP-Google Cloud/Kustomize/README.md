@@ -46,7 +46,24 @@ mkdir -p base-app overlays/dev overlays/prod
 
 This structure is depicted in the diagram below:
 
-![Directory Structure](https://user-images.githubusercontent.com/your-image-path/directory-structure-diagram.png)
+```
+├── base-app
+│   ├── config.properties
+│   ├── deployment.yaml
+│   ├── kustomization.yaml
+│   └── service.yaml
+└── overlays
+    ├── dev
+    │   ├── config.properties
+    │   ├── kustomization.yaml
+    │   ├── namespace.yaml
+    │   └── replicas.yaml
+    └── prod
+        ├── resource_limits.yaml
+        ├── kustomization.yaml
+        ├── namespace.yaml
+        └── replicas.yaml
+```
 
 - **base-app**: Contains all base Kubernetes manifest files like deployment and service.
 - **overlays/dev**: Specific adjustments for the development environment.
@@ -181,21 +198,3 @@ For more detailed information and advanced features, please refer to the [offici
 
 
 
-
-
-```
-├── base
-│   ├── config.properties
-│   ├── deployment.yaml
-│   ├── kustomization.yaml
-│   └── service.yaml
-└── overlays
-    ├── dev
-    │   ├── config.properties
-    │   ├── kustomization.yaml
-    │   └── replicas.yaml
-    └── prod
-        ├── config.properties
-        ├── kustomization.yaml
-        └── replicas.yaml
-```
