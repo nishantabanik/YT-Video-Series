@@ -1,0 +1,22 @@
+resources:
+- ../../base-app
+- namespace.yaml
+
+namespace: dev
+
+patches:
+- path: replicas.yaml
+
+namePrefix:
+  dev-
+
+nameSuffix:
+  -v1
+
+images:
+- name: emergingtechnologies2016/unstuck-repo:latest
+  newTag: v1
+
+configMapGenerator:
+- name: webapp-configmap
+  env: config.properties

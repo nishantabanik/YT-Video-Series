@@ -1,0 +1,19 @@
+resources:
+- ../../base-app
+- namespace.yaml
+- resource_limits.yaml
+
+namespace: prod
+
+patches:
+- path: replicas.yaml
+
+namePrefix:
+  prod-
+
+nameSuffix:
+  -v2
+
+images:
+- name: emergingtechnologies2016/unstuck-repo:latest
+  newTag: v2
