@@ -15,5 +15,5 @@ nameSuffix:
   -v2
 
 images:
-- name: emergingtechnologies2016/unstuck-repo:latest
+- name: emergingtechnologies2016/unstuck-repo
   newTag: v2
